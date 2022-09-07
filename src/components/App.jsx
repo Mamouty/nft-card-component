@@ -1,9 +1,10 @@
+import Nft from "./Nft";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello!</h1>
+      <Nft />
     </div>
   );
 }
