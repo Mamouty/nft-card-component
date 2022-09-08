@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const Line = styled.div`
-    height: 1px;
+    height: 2px;
     width: 285px;
     margin: auto;
-    background-color: hsl(215, 51%, 70%);
+    background-color: hsl(215, 32%, 27%);
 `;
 
 const Footer = styled.footer`

@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [nft-card-component using React.js and Styled-Components](https://www.frontendmentor.io/solutions/nftcardcomponent-using-reactjs-and-styledcomponents-solO_ojJYA)
+- Live Site URL: [Frontend Mentor - NFT preview card component solution](https://mamouty.github.io/nft-card-component/)
 
 ## My process
 
@@ -52,12 +52,12 @@ In this project I've decides to put the NFTs data in a separate file, specifical
 ```js
 const nfts = {
     id: 1,
-    imageSrc: process.env.PUBLIC_URL + "./images/image-equilibrium.jpg",
+    imageSrc: process.env.PUBLIC_URL + "/images/image-equilibrium.jpg",
     imageAlt: "Ethereum crystal cube",
     imageTitle : "NFT image",
     nftTitle: "Equilibrium #3429",
     nftDes: "Our Equilibrium collection promotes balance and calm.",
-    avatarImage: process.env.PUBLIC_URL + "./images/image-avatar.png",
+    avatarImage: process.env.PUBLIC_URL + "/images/image-avatar.png",
     avatarName: "Jules Wyvern"  
 };
 
