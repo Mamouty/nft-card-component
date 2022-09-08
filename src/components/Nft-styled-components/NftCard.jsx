@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import Image from "./NftImage";
 import nfts from "../../nft";
@@ -20,7 +21,8 @@ const Card = styled.div`
 function NftCard() {
     return (
         <Card>
-            <Image image={`${nfts.imageSrc}`} alt={nfts.imageAlt} title={nfts.imageTitle}/>
+            <Image image={nfts.imageSrc} alt={nfts.imageAlt} title={nfts.imageTitle}/>
+            {console.log(nfts.imageSrc)}
             <NftDes nftTitle={nfts.nftTitle} description={nfts.nftDes}/>
             <NftStats />
             <Credits creditsImage={nfts.avatarImage} creditsName={nfts.avatarName}/>
