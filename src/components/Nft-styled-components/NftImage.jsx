@@ -47,6 +47,7 @@ function NftImage(props) {
         <ImageContainer>
           <img src={props.image} alt={props.alt}/>
           <div>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" title={props.title}>
                 <i class="fa-solid fa-eye"></i>
             </a>
